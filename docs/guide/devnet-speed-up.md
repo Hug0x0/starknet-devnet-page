@@ -1,7 +1,6 @@
 ---
 sidebar_position: 15
 ---
-
 ## Devnet speed-up troubleshooting
 
 If you are not satisfied with Devnet's performance, consider the following:
