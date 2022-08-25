@@ -2,4 +2,4 @@
 sidebar_position: 7
 ---
 
-# Block Explorer
+## Block Explorer
