@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Interaction
+## Interaction
 
 - Interact with Devnet as you would with the official Starknet [Alpha testnet](https://www.cairo-lang.org/docs/hello_starknet/amm.html?highlight=alpha#interaction-examples).
 - The exact underlying API is not exposed for the same reason Alpha testnet does not expose it.
