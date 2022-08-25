@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Run
+## Run
 
 Installing the package adds the `starknet-devnet` command.
 
