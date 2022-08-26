@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-## Run
+# Run
 
 Installing the package adds the `starknet-devnet` command.
 
@@ -51,15 +51,15 @@ Check that it's alive by running the following (address and port my vary if you 
 curl http://127.0.0.1:5050/is_alive
 ```
 
-### Run with Docker
+## Run with Docker
 
-Devnet is available as a Docker image ([shardlabs/starknet-devnet](https://hub.docker.com/repository/docker/shardlabs/starknet-devnet)):
+Devnet is available as a Docker image ([**shardlabs/starknet-devnet**](https://hub.docker.com/repository/docker/shardlabs/starknet-devnet)):
 
 ```bash
 docker pull shardlabs/starknet-devnet:<TAG>
 ```
 
-#### Versions and Tags
+### Versions and Tags
 
 Image tags correspond to Devnet versions as on PyPI and GitHub, with the `latest` tag used for the latest image. These images are built for linux/amd64. To use the arm64 versions, since `0.1.23` you can append `-arm` to the tag. E.g.:
 
@@ -67,7 +67,7 @@ Image tags correspond to Devnet versions as on PyPI and GitHub, with the `latest
 - `shardlabs/starknet-devnet:0.2.10-arm` - image for the arm64 architecture
 - `shardlabs/starknet-devnet:latest-arm`
 
-By appending the `-seed0` suffix, you can access images which [predeploy funded accounts](#predeployed-accounts) with `--seed 0`, thus always deploying the same set of accounts. E.g.:
+By appending the `-seed0` suffix, you can access images which [**predeploy funded accounts**](#predeployed-accounts) with `--seed 0`, thus always deploying the same set of accounts. E.g.:
 
 - `shardlabs/starknet-devnet:0.2.10-seed0`
 - `shardlabs/starknet-devnet:latest-seed0`
