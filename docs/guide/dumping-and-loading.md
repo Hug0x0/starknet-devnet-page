@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-## Dumping
+# Dumping & Loading
 
 To preserve your Devnet instance for future use, there are several options:
 
@@ -24,7 +24,7 @@ starknet-devnet --dump-on transaction --dump-path <PATH>
 curl -X POST http://<HOST>:<PORT>/dump -d '{ "path": <PATH> }' -H "Content-Type: application/json"
 ```
 
-### Loading
+## Loading
 
 To load a preserved Devnet instance, the options are:
 
@@ -40,7 +40,7 @@ starknet-devnet --load-path <PATH>
 curl -X POST http://<HOST>:<PORT>/load -d '{ "path": <PATH> }' -H "Content-Type: application/json"
 ```
 
-### Enabling dumping and loading with Docker
+## Enabling dumping and loading with Docker
 
 To enable dumping and loading if running Devnet in a Docker container, you must bind the container path with the path on your host machine.
 
