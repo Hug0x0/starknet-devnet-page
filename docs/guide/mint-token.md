@@ -3,13 +3,13 @@ sidebar_position: 14
 ---
 
 
-## Mint token - Local faucet
+# Mint token - Local faucet
 
 Other than using prefunded predeployed accounts, you can also add funds to an account that you deployed yourself.
 
 The ERC20 contract used for minting ETH tokens and charging fees is at: `0x62230ea046a9a5fbc261ac77d03c8d41e5d442db2284587570ab46455fd2488`
 
-### Query fee token address
+## Query fee token address
 
 ```
 GET /fee_token
@@ -24,7 +24,7 @@ Response:
 }
 ```
 
-### Mint with a transaction
+## Mint with a transaction
 
 By not setting the `lite` parameter or by setting it to `false`, new tokens will be minted in a separate transaction. You will receive the hash of this transaction, as well as the new balance after minting in the response.
 
@@ -48,7 +48,7 @@ Response:
 }
 ```
 
-### Mint lite
+## Mint lite
 
 By setting the `lite` parameter, new tokens will be minted without generating a transaction, thus executing faster.
 
