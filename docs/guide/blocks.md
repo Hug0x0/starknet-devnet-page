@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-## Blocks
+# Blocks
 
 Devnet starts with a genesis block (with block number equal to `0` and block hash equal to `"0x0"`).
 
