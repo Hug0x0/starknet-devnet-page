@@ -6,10 +6,7 @@ sidebar_position: 1
 
 Let's discover **[starknet-devnet](https://github.com/Shard-Labs/starknet-devnet)**.
 :::danger Take care
-
 ## ⚠️ Disclaimer ⚠️
-
-
 :::
 
 - Devnet should not be used as a replacement for Alpha testnet. After testing on Devnet, be sure to test on testnet (alpha-goerli)!
