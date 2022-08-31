@@ -10,12 +10,11 @@ const config = {
   tagline: 'A Flask wrapper of Starknet state. Similar in purpose to Ganache.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Hugo0x0', // Usually your GitHub org/user name.
   projectName: 'starknet-devnet-page', // Usually your repo name.
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
