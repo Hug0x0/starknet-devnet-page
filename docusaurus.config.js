@@ -13,9 +13,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Hugo0x0', // Usually your GitHub org/user name.
   projectName: 'starknet-devnet-page', // Usually your repo name.
 
@@ -34,10 +31,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/Shard-Labs/starknet-devnet',
+        },
+        blog: {
+          showReadingTime: true,
+          editUrl: 'https://github.com/Shard-Labs/starknet-devnet',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -56,7 +54,7 @@ const config = {
       navbar: {
         title: 'Starknet Devnet',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'starknet-devnet Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -102,6 +100,7 @@ const config = {
           //     },
           //   ],
           // },
+          {},{},{},{},
           {
             title: 'More',
             items: [
