@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 ---
-
 # Getting Started
 
 Let's discover **[starknet-devnet](https://github.com/Shard-Labs/starknet-devnet)**.
