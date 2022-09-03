@@ -17,7 +17,6 @@ const config = {
   projectName: 'starknet-devnet-page', // Usually your repo name.
   deploymentBranch: "gh-pages",
 
-
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
