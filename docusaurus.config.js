@@ -9,12 +9,12 @@ const config = {
   title: 'StarkNet Devnet',
   tagline: 'A Flask wrapper of Starknet state. Similar in purpose to Ganache.',
   url: 'https://github.com',
-  // baseUrl: '/starknet-devnet-page/',
-  baseUrl: '/',
+  baseUrl: '/starknet-devnet-page/',
+  // baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Hugo0x0', // Usually your GitHub org/user name.
+  organizationName: 'Hug0x0', // Usually your GitHub org/user name.
   projectName: 'starknet-devnet-page', // Usually your repo name.
   deploymentBranch: "gh-pages",
 
