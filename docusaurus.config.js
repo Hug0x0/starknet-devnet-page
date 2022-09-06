@@ -61,7 +61,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Get Started',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/Shard-Labs/starknet-devnet',
